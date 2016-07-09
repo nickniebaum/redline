@@ -1,0 +1,19 @@
+# Junk OS files
+.DS_Store
+Thumbs.db
+
+# Sublime Text 2 project file
+*.sublime-workspace
+
+# Sass cache directories
+.sass-cache
+
+# CodeIgniter cache files
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+# CodeIgniter log files
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess

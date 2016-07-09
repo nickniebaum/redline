@@ -1,0 +1,63 @@
+/*
+----------------------------------------------------------------------------------------------------
+
+    VARIABLES
+
+----------------------------------------------------------------------------------------------------
+    Application layout variables.
+----------------------------------------------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------
+    Header
+--------------------------------------------------
+*/
+// Basics
+$app-header-height: 50px !default;
+$app-header-color: #777 !default;
+$app-header-bg: #fff !default;
+$app-header-border: #e5e5e5 !default;
+
+// Links
+$app-header-link-color: #777 !default;
+$app-header-link-hover-color: #333 !default;
+$app-header-link-hover-bg: transparent !default;
+$app-header-link-active-color: #555 !default;
+$app-header-link-active-bg: darken($app-header-bg, 6.5%) !default;
+$app-header-link-disabled-color: #ccc !default;
+$app-header-link-disabled-bg: transparent !default;
+
+// Brand
+$app-header-brand-color: $app-header-link-color !default;
+$app-header-brand-hover-color: darken($app-header-brand-color, 10%) !default;
+$app-header-brand-hover-bg: transparent !default;
+
+// Toggle
+$app-header-toggle-hover-bg: #ddd !default;
+$app-header-toggle-icon-bar-bg: #888 !default;
+$app-header-toggle-border-color: #ddd !default;
+
+// Avatar
+$app-header-avatar-size: 32px !default;
+
+/*
+--------------------------------------------------
+    Navigation
+--------------------------------------------------
+*/
+// Basics
+$app-nav-width: 200px !default;
+$app-nav-color: #777 !default;
+$app-nav-bg: #303a40 !default;
+$app-nav-border: #e5e5e5;
+$app-nav-zindex: $zindex-navbar-fixed + 1;
+
+// Links
+$app-nav-link-color: lighten($app-nav-bg,55);// #aeb1b2 !default;
+$app-nav-link-hover-color: lighten($app-nav-bg,60) !default;
+$app-nav-link-hover-bg: lighten($app-nav-bg,5) !default;
+$app-nav-link-active-color: $app-nav-link-color !default;
+$app-nav-link-active-bg: $app-nav-link-hover-bg !default;
+$app-nav-link-disabled-color: $app-nav-link-color !default;
+$app-nav-link-disabled-bg: $app-nav-link-hover-bg !default;

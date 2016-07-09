@@ -1,0 +1,47 @@
+/*
+----------------------------------------------------------------------------------------------------
+
+    APPLICATION
+
+----------------------------------------------------------------------------------------------------
+    Built with Bootstrap 3.
+----------------------------------------------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------
+    Application Variables
+--------------------------------------------------
+*/
+// Bootstrap
+@import 'application/bootstrap/variables';
+// Layout
+@import 'application/layout/variables';
+
+/*
+--------------------------------------------------
+    Bootstrap
+--------------------------------------------------
+*/
+@import 'application/bootstrap';
+
+/*
+--------------------------------------------------
+    Extended Bootstrap Components
+--------------------------------------------------
+*/
+// Core CSS
+@import 'application/bootstrap/scaffolding';
+// Components
+@import 'application/bootstrap/navs';
+@import 'application/bootstrap/navbar';
+@import 'application/bootstrap/panels';
+
+/*
+--------------------------------------------------
+    Layout
+--------------------------------------------------
+*/
+@import 'application/layout/header';
+@import 'application/layout/nav';
+@import 'application/layout/content';

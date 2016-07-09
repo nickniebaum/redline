@@ -1,0 +1,85 @@
+/*
+----------------------------------------------------------------------------------------------------
+
+    BOOTSTRAP
+
+----------------------------------------------------------------------------------------------------
+    Bootstrap 3 CSS framework.
+----------------------------------------------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------
+  Core Variables and Mixins
+--------------------------------------------------
+*/
+// Bootstrap variables are being loaded by the application
+// @import '../../vendor/bootstrap-sass/stylesheets/bootstrap/variables';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/mixins';
+
+/*
+--------------------------------------------------
+  Reset and Dependencies
+--------------------------------------------------
+*/
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/normalize';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/print';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/glyphicons';
+
+/*
+--------------------------------------------------
+  Core CSS
+--------------------------------------------------
+*/
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/scaffolding';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/type';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/code';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/grid';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/tables';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/forms';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/buttons';
+
+/*
+--------------------------------------------------
+  Components
+--------------------------------------------------
+*/
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/component-animations';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/dropdowns';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/button-groups';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/input-groups';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/navs';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/navbar';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/breadcrumbs';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/pagination';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/pager';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/labels';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/badges';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/jumbotron';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/thumbnails';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/alerts';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/progress-bars';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/media';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/list-group';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/panels';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/responsive-embed';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/wells';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/close';
+
+/*
+--------------------------------------------------
+  Components w/JavaScript
+--------------------------------------------------
+*/
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/modals';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/tooltip';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/popovers';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/carousel';
+
+/*
+--------------------------------------------------
+  Utility Classes
+--------------------------------------------------
+*/
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/utilities';
+@import '../../vendor/bootstrap-sass/stylesheets/bootstrap/responsive-utilities';

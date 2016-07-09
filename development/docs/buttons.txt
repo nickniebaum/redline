@@ -1,0 +1,25 @@
+Favorites
+    - Bookmarked/saved locations, quickly accessed from any screen
+My Profile
+System Administration
+Notifications
+Messages
+Calendar
+Log Out
+Goals
+    - Increase sales monthly/yearly by x %, volume by x %, etc.
+    - Systemwide, per user
+
+
+
+
+Dashboard
+Leads
+Inventory
+    - Work Orders
+Customers
+Sales
+    - Cash
+    - BHPH
+    - CAPS
+Reporting

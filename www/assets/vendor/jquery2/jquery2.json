@@ -1,0 +1,14 @@
+{
+    "key": "jquery2",
+    "name": "jQuery 2.x",
+    "description": "JavaScript library for DOM operations",
+    "version": "2.2.4",
+    "url": "http://jquery.com",
+    "files": {
+        "/": [
+            "jquery-2.2.4.js",
+            "jquery-2.2.4.min.js",
+            "jquery-2.2.4.min.map"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "key": "bootstrap-sass",
+    "name": "Bootstrap",
+    "description": "bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.",
+    "version": "3.3.6",
+    "url": "https://github.com/twbs/bootstrap-sass",
+    "files": {
+        "/": [
+            "assets/*",
+            "LICENSE",
+            "README.md"
+        ]
+    }
+}

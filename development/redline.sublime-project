@@ -1,0 +1,35 @@
+{
+    "folders":
+    [
+        {
+            "name": "redline",
+            "path": "..",
+            "file_exclude_patterns": ["*.sublime-project", "*.sublime-workspace"]
+        },
+        {
+            // "folder_exclude_patterns":
+            // [
+            //  ".*"
+            // ],
+            "name": "Development",
+            "path": "../../.."
+        },
+        {
+            "name": "WAMP",
+            "path": "../../../Tools/WAMP"
+        }
+    ],
+    "settings":
+    {
+        "translate_tabs_to_spaces": true,
+        "tab_size": 4,
+        "word_wrap": false
+    },
+    "build_systems":
+    [
+        // {
+        //  "name": "Build System Name",
+        //  "cmd": ["echo 'build system command'"]
+        // }
+    ]
+}

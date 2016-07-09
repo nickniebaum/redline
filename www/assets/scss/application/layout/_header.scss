@@ -1,0 +1,40 @@
+/*
+----------------------------------------------------------------------------------------------------
+
+    HEADER
+
+----------------------------------------------------------------------------------------------------
+    Application header component.
+----------------------------------------------------------------------------------------------------
+*/
+
+#app-header {
+    min-height: $app-header-height;
+    margin-bottom: 0;
+    margin-left: $app-nav-width;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+
+    .navbar-nav {
+        > li > a {
+            /*
+            --------------------------------------------------
+                Avatar
+            --------------------------------------------------
+            */
+            &.avatar {
+                padding-top: ($app-header-height - $app-header-avatar-size)/2;
+                padding-bottom: ($app-header-height - $app-header-avatar-size)/2;
+
+                img {
+                    width: $app-header-avatar-size;
+                    height: $app-header-avatar-size;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    .navbar-brand {
+        height: $app-header-height;
+    }
+}
